@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="MainPane" prefHeight="671.0" prefWidth="766.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HomePageController">
+    <children>
+      <Label layoutX="195.0" layoutY="50.0" text="Please Enter Number of Jobs :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="InputJob" alignment="CENTER" layoutX="453.0" layoutY="44.0" onAction="#OnActionInputJobField" prefHeight="33.0" prefWidth="95.0">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <Label fx:id="Message" alignment="CENTER" contentDisplay="CENTER" layoutX="219.0" layoutY="323.0" prefHeight="25.0" prefWidth="329.0" style="-fx-text-fill: red;" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
